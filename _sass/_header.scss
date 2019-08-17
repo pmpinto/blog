@@ -1,0 +1,28 @@
+.header {
+}
+
+.header__title {
+    font-family: $font-family-body;
+    line-height: $font-line-height-heading;
+    font-size: $font-size-heading;
+    font-weight: $font-weight-bold;
+    color: $color-text;
+    margin: 0;
+    letter-spacing: rem(-4);
+    margin-left: rem(-4);
+
+    &::after {
+        content: ".";
+        display: inline-block;
+        color: $color-brand;
+    }
+}
+
+.header__tagline {
+    font-family: $font-family-body;
+    line-height: $font-line-height-heading;
+    font-size: $font-size-caption;
+    font-weight: $font-weight-regular;
+    color: $color-detail;
+    margin: 0;
+}

@@ -1,0 +1,56 @@
+@import "_utils";
+
+// #################################################################################################
+// Type
+
+$font-family-sans: "work-sans", sans-serif;
+$font-family-mono: "space-mono", sans-serif;
+
+$font-family-heading: $font-family-mono;
+$font-family-body: $font-family-sans;
+
+$font-size-jumbo: rem(177.424);
+$font-size-heading: rem(67.773);
+$font-size-subheading: rem(41.887);
+$font-size-body: rem(25.888);
+$font-size-caption: rem(16);
+
+$font-line-height-body: 1.618;
+$font-line-height-heading: 1;
+
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-bold: 500;
+
+// #################################################################################################
+// Spacing
+
+$spacing-unit: rem(16);
+
+// #################################################################################################
+// Color
+
+$color-white: #f4f2f3;
+$color-grey: #93827f;
+$color-black: #353535;
+$color-red: #c14953;
+$color-orange: #ed9b40;
+
+$color-text: $color-black;
+$color-background: $color-white;
+$color-brand: $color-red;
+$color-highlight: $color-orange;
+$color-detail: $color-grey;
+
+// #################################################################################################
+// Breakpoints
+
+$content-width: 80%;
+
+$breakpoint-md: 48em; // 768px
+$breakpoint-lg: 64em; // 1024px
+$breakpoint-xlg: 90em; // 1440px
+
+$md: "min-width: #{$breakpoint-md}";
+$lg: "min-width: #{$breakpoint-lg}";
+$xlg: "min-width: #{$breakpoint-xlg}";

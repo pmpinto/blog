@@ -1,0 +1,22 @@
+.page {
+}
+
+.page__wrapper {
+    margin-top: rem(210);
+    max-width: $content-width;
+    padding: 5% 0;
+    margin: 0 auto;
+
+    @media ($md) {
+        background-color: blue;
+    }
+
+    @media ($lg) {
+        background-color: yellow;
+    }
+
+    @media ($xlg) {
+        background-color: green;
+        max-width: rem(1200);
+    }
+}

@@ -1,0 +1,58 @@
+@import url(normalize.css);
+@font-face {
+  font-family: "space-mono";
+  src: url("../assets/fonts/spacemono-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "work-sans";
+  src: url("../assets/fonts/worksans-extralight-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: "work-sans";
+  src: url("../assets/fonts/worksans-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "work-sans";
+  src: url("../assets/fonts/worksans-semibold-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+.page__wrapper {
+  margin-top: 13.125rem;
+  max-width: 80%;
+  padding: 5% 0;
+  margin: 0 auto; }
+  @media (min-width: 48em) {
+    .page__wrapper {
+      background-color: blue; } }
+  @media (min-width: 64em) {
+    .page__wrapper {
+      background-color: yellow; } }
+  @media (min-width: 90em) {
+    .page__wrapper {
+      background-color: green;
+      max-width: 75rem; } }
+
+.header__title {
+  font-family: "work-sans", sans-serif;
+  line-height: 1;
+  font-size: 4.2358125rem;
+  font-weight: 500;
+  color: #353535;
+  margin: 0;
+  letter-spacing: -0.25rem;
+  margin-left: -0.25rem; }
+  .header__title::after {
+    content: ".";
+    display: inline-block;
+    color: #c14953; }
+
+.header__tagline {
+  font-family: "work-sans", sans-serif;
+  line-height: 1;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #93827f;
+  margin: 0; }
