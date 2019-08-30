@@ -6,6 +6,12 @@ jobs:
         steps:
             - checkout
             - run:
+                  name: Update bundler
+                  command: bundle update --bundler
+            - run:
+                  name: Check bundler version
+                  command: bundler -v
+            - run:
                   name: Install ruby dependencies
                   command: bundle
             - run:
