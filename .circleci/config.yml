@@ -6,6 +6,9 @@ jobs:
         steps:
             - checkout
             - run:
+                  name: Install node
+                  command: pkg install node
+            - run:
                   name: Install npm dependencies
                   command: npm i
             - run:
