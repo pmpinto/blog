@@ -2,12 +2,18 @@
     "name": "blog",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "private": true,
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "bundle exec jekyll serve --livereload",
-        "build": "jekyll build",
-        "audit": "jekyll doctor"
+        "start": "npm-run-all webpack:warn jekyll:dev",
+        "start:webpack": "npm run webpack:dev",
+        "build": "npm-run-all webpack:build jekyll:build",
+        "jekyll:dev": "bundle exec jekyll serve --livereload --trace",
+        "jekyll:drafts": "bundle exec jekyll serve --livereload --drafts",
+        "jekyll:build": "jekyll build",
+        "audit": "jekyll doctor",
+        "webpack:dev": "npx webpack --config webpack.config.js -w",
+        "webpack:build": "npx webpack --config webpack.config.js",
+        "webpack:warn": "echo '⚠️ Webpack is not running. Please run `npm run start:webpack` if you need it.'"
     },
     "repository": {
         "type": "git",
@@ -19,5 +25,13 @@
     "bugs": {
         "url": "https://github.com/pmpinto/blog/issues"
     },
-    "homepage": "https://github.com/pmpinto/blog#readme"
+    "homepage": "https://github.com/pmpinto/blog#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "npm-run-all": "^4.1.5",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.7"
+    }
 }
