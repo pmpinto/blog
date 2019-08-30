@@ -6,6 +6,9 @@ jobs:
         steps:
             - checkout
             - run:
+                  name: Debug info
+                  command: gem list bundler
+            - run:
                   name: Update bundler
                   command: bundle update --bundler
             - run:
