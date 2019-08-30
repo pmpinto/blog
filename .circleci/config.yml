@@ -1,19 +1,21 @@
 version: 2
 jobs:
-    build:
+    prebuild:
         docker:
             - image: circleci/ruby:2.4.1
         steps:
             - checkout
             - run:
-                  name: Install node
-                  command: pkg install node
+                  name: Install ruby dependencies
+                  command: bundle
+    build:
+        docker:
+            - image: circleci/node:10.16.0
+        steps:
+            - checkout
             - run:
                   name: Install npm dependencies
                   command: npm i
-            - run:
-                  name: Install ruby dependencies
-                  command: bundle
             - run:
                   name: Build
                   command: npm run build
