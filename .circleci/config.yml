@@ -6,5 +6,11 @@ jobs:
         steps:
             - checkout
             - run:
-                  name: Echo tests
-                  command: echo "A first hello"
+                  name: Install npm dependencies
+                  command: npm i
+            - run:
+                  name: Install ruby dependencies
+                  command: bundle
+            - run:
+                  name: Build
+                  command: npm run build
