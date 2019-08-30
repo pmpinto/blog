@@ -14,27 +14,63 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mero
-email: pedropinto.web@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-    A collection of points of view, opinions, suggestions and completely random thoughts.
 tagline: Pure, simple &amp; genuine.
+description: >- # this means to ignore newlines until "baseurl:"
+    A collection of points of view, opinions, suggestions and completely random thoughts by Pedro Pinto.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://pedropinto.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: pmpinto
-github_username: pmpinto
 timezone: PT
 permalink: /:slug
-paginate: 5
-paginate_path: "/blog/page/:num/"
+url: https://pedropinto.me # the base hostname & protocol for your site, e.g. http://example.com
+
+# Code snippets syntax highlight
+highlighter: rouge
+
+# Archives / Category pages
+jekyll-archives:
+    enabled: [categories]
+    layout: category
+    permalinks:
+        category: "/category/:name/"
+
+# Pagination
+pagination:
+    enabled: true
+    per_page: 12
+    title: "Page :num"
+    permalink: "/page/:num/"
+    trail:
+        before: 2
+        after: 2
+    sort_field: "date"
+    sort_reverse: true
+
+# SEO Tag data
+author:
+    name: Pedro Pinto
+    twitter: pmpinto
+    website: https://pedropinto.me
+    email: pedropinto.web@gmail.com
+twitter:
+    username: pmpinto
+    card: summary
+social:
+    name: Pedro Pinto
+    links:
+        - https://github.com/pmpinto
+        - https://twitter.com/pmpinto
+        - https://dribbble.com/pmpinto
+        - https://www.last.fm/user/xoldmanx
+        - https://500px.com/pmpinto
 
 # Build settings
+destination: dist
 markdown: kramdown
 plugins:
     - jekyll-feed
     - jekyll-seo-tag
-    - jekyll-paginate
-
-destination: dist
+    - jekyll-paginate-v2
+    - rouge
+    - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -44,3 +80,6 @@ exclude:
     - Gemfile.lock
     - node_modules
     - package.json
+    - assets/javascript/*.es6.js
+    - assets/javascript/index.js
+    - webpack.config.js
