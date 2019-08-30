@@ -12,8 +12,8 @@ jobs:
                   name: Update bundler
                   command: gem install bundler
             - run:
-                  name: Update Gemfile.lock
-                  command: bundler update --bundler
+                  name: Remove Gemfile.lock
+                  command: rm Gemfile.lock
             - run:
                   name: Debug info
                   command: gem list bundler && bundler -v
