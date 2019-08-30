@@ -10,7 +10,10 @@ jobs:
                   command: sudo gem update --system
             - run:
                   name: Update bundler
-                  command: sudo gem install bundler -v 2.0.2
+                  command: gem install bundler -v 2.0.2
+            - run:
+                  name: Update Gemfile.lock
+                  command: bundler update --bundler
             - run:
                   name: Debug info
                   command: gem list bundler && bundler -v
