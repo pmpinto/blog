@@ -6,14 +6,14 @@ jobs:
         steps:
             - checkout
             - run:
-                  name: Debug info
-                  command: gem list bundler
+                  name: Update gems
+                  command: sudo gem update --system
             - run:
                   name: Update bundler
-                  command: gem install bundler -v 2.0.2
+                  command: sudo gem install bundler -v 2.0.2
             - run:
-                  name: Update rubygems
-                  command: gem install rubygems -v 3.0.6
+                  name: Debug info
+                  command: gem list bundler && bundler -v
             - run:
                   name: Install ruby dependencies
                   command: bundle
