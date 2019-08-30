@@ -5,4 +5,6 @@ jobs:
             - image: circleci/ruby:2.4.1
         steps:
             - checkout
-            - run: echo "A first hello"
+            - run:
+                  name: Echo tests
+                  command: echo "A first hello"
