@@ -15,14 +15,14 @@ jobs:
                   name: Remove Gemfile.lock
                   command: rm Gemfile.lock
             - run:
-                  name: Debug info
-                  command: gem list bundler && bundler -v
-            - run:
                   name: Install ruby dependencies
-                  command: bundle
+                  command: bundle install
             - run:
                   name: Install npm dependencies
                   command: npm i
             - run:
                   name: Build
                   command: npm run build
+            - run:
+                  name: Deploy
+                  command: ls && ls dist
