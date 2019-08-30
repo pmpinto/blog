@@ -12,8 +12,8 @@ jobs:
                   name: Update bundler
                   command: gem install bundler -v 2.0.2
             - run:
-                  name: Check bundler version
-                  command: bundler -v
+                  name: Update rubygems
+                  command: gem install rubygems -v 3.0.6
             - run:
                   name: Install ruby dependencies
                   command: bundle
