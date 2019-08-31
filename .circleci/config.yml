@@ -2,7 +2,7 @@ version: 2
 jobs:
     build:
         docker:
-            - image: circleci/ruby:2.4.1-node
+            - image: circleci/ruby:2.4.1-node-rsync
         steps:
             - checkout
             - run:
@@ -26,9 +26,10 @@ jobs:
             - run:
                   name: Clone parent repo
                   command: git clone git@github.com:pmpinto/pmpinto.github.io.git
+            - run: which rsync
             - run:
-                  name: Copy dist folder to new repo
-                  command: mv ./dist ./pmpinto.github.io/blog
+                  name: Sync dist folder with blog
+                  command: rsync -avu --delete "./dist/" "./pmpinto.github.io/blog"
             - run:
                   name: Deploy
                   command: |
