@@ -24,11 +24,14 @@ jobs:
                   name: Build
                   command: npm run build
             - run:
-                  name: Deploy
-                  command: ls && ls dist
+                  name: Clone parent repo
+                  command: git clone git@github.com:pmpinto/pmpinto.github.io.git
             - run:
-                  name: Fetch parent repo
-                  command: mkdir -p pedropinto && cd pedropinto && git clone git@github.com:pmpinto/pmpinto.github.io.git
+                  name: Copy dist folder to new repo
+                  command: mv ./dist ./pmpinto.github.io/blog
+            - run:
+                  name: List
+                  command: cd ./pmpinto.github.io && git status
             # - persist_to_workspace:
             #     root: ./
             #     paths: dist
