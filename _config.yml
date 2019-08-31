@@ -63,6 +63,13 @@ social:
         - https://www.last.fm/user/xoldmanx
         - https://500px.com/pmpinto
 
+# Default front matter
+defaults:
+    - scope:
+        path: ""
+    values: 
+        image: /assets/images/open_graph.png
+
 # Build settings
 destination: dist
 markdown: kramdown
