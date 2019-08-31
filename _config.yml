@@ -65,8 +65,11 @@ social:
 
 # Default front matter
 defaults:
+  -
+    scope:
+      path: ""
     values:
-        image: /assets/images/open_graph.png
+      image: /assets/images/open_graph.png
 
 # Build settings
 destination: dist
