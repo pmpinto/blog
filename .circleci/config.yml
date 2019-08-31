@@ -29,9 +29,6 @@ jobs:
             - run:
                   name: Copy dist folder to new repo
                   command: mv ./dist ./pmpinto.github.io/blog
-            # - run:
-            #       name: Move into parent repo folder
-            #       command: cd pmpinto.github.io
             - run:
                   name: Deploy
                   command: |
@@ -41,8 +38,5 @@ jobs:
                       git config user.name "ci-builder"
                       git add --all blog
                       git status
-                  #   git commit -m "Update blog with latest build"
-                  #   git push
-            # - persist_to_workspace:
-            #     root: ./
-            #     paths: dist
+                      git commit -m "(Circle CI) Update blog with latest build"
+                      git push origin master
