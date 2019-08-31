@@ -35,7 +35,7 @@ jobs:
             - run:
                   name: Deploy
                   command: |
-                      commitId=$(git log -1 --pretty=%H)
+                      commitId=$(git log -1 --pretty=%h)
                       commitMessage=$(git log -1 --pretty=%B)
                       cd pmpinto.github.io
                       ls
@@ -43,5 +43,5 @@ jobs:
                       git config user.name "ci-builder"
                       git add --all blog
                       git status
-                      git commit -m "(Circle CI) $commitId $commitMessage"
+                      git commit -m "(Circle CI) ($commitId) $commitMessage"
                       git push origin master
