@@ -35,11 +35,13 @@ jobs:
             - run:
                   name: Deploy
                   command: |
+                      commitId=$(git log -1 --pretty=%h)
+                      commitMessage=$(git log -1 --pretty=%B)
                       cd pmpinto.github.io
                       ls
                       git config user.email "circleci@pedropinto.me"
                       git config user.name "ci-builder"
                       git add --all blog
                       git status
-                      git commit -m "(Circle CI) Update blog with latest build"
+                      git commit -m "(Circle CI) ($commitId) $commitMessage"
                       git push origin master
