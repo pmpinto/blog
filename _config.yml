@@ -69,7 +69,10 @@ defaults:
     scope:
       path: ""
     values:
-      image: /assets/images/open_graph.png
+      image:
+        path: /assets/images/open_graph.png
+        width: 1024
+        height: 500
 
 # Build settings
 destination: dist
