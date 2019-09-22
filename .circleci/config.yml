@@ -18,14 +18,8 @@ jobs:
                   name: Install ruby dependencies
                   command: bundle install
             - run:
-                  name: Install npm dependencies
-                  command: npm i
-            - run:
                   name: Build jekyll
-                  command: npm run jekyll:build
-            - run:
-                  name: Bundle javascript
-                  command: npm run webpack:build
+                  command: bundle exec jekyll build --trace
             - run:
                   name: Clone parent repo
                   command: git clone git@github.com:pmpinto/pmpinto.github.io.git
