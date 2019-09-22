@@ -1,15 +1,5 @@
 ---
-layout: default
+layout: home
 pagination:
     enabled: true
 ---
-
-<div class="page">
-    <div class="page__wrapper">
-        {% include _header.html %}
-        <!--  -->
-        {% include _article-list.html posts=paginator.posts %}
-        <!--  -->
-        {% include _pagination.html %}
-    </div>
-</div>
