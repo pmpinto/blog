@@ -21,8 +21,11 @@ jobs:
                   name: Install npm dependencies
                   command: npm i
             - run:
-                  name: Build
-                  command: npm run build
+                  name: Build jekyll
+                  command: npm run jekyll:build
+            - run:
+                  name: Bundle javascript
+                  command: npm run webpack:build
             - run:
                   name: Clone parent repo
                   command: git clone git@github.com:pmpinto/pmpinto.github.io.git
