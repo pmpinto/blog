@@ -1,3 +1,0 @@
-@function rem($pxValue: 1) {
-    @return #{$pxValue / 16}rem;
-}

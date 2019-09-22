@@ -21,6 +21,7 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 timezone: PT
 permalink: /:slug
 url: https://pedropinto.me # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics_id: UA-13159742-2
 
 # Code snippets syntax highlight
 highlighter: rouge
@@ -36,7 +37,7 @@ jekyll-archives:
 pagination:
     enabled: true
     per_page: 12
-    title: "Page :num"
+    title: ""
     permalink: "/page/:num/"
     trail:
         before: 2
@@ -65,23 +66,20 @@ social:
 
 # Default front matter
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image:
-        path: /assets/images/open_graph.png
-        width: 1024
-        height: 500
+    - scope:
+          path: ""
+      values:
+          image:
+              path: /assets/images/open_graph.png
+              width: 1024
+              height: 500
 
 # Build settings
+remote_theme: pmpinto/jekyll-mero
 destination: dist
 markdown: kramdown
 plugins:
-    - jekyll-feed
-    - jekyll-seo-tag
     - jekyll-paginate-v2
-    - rouge
     - jekyll-archives
 
 # Exclude from processing.
