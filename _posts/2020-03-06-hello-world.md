@@ -3,7 +3,7 @@ layout: post
 title: Hello world!
 date: 2020-03-06 01:00:00 +0100
 categories: [hello, theme]
-
+custom_excerpt: Ever since I started to work, I felt like there were little things I would like to share and ramble about. A few years later I even stumbled upon a Medium article that got me into a life-changing experience.
 ---
 
 Ever since I started to work, I felt like there were little things I would like to share and ramble about. A few years later I even stumbled upon a Medium article that got me into a life-changing experience. I wanted to talk about it. I wanted to share the whole experience so that someone else could benefit from the same I had benefited by reading that article.
