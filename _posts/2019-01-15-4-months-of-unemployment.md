@@ -3,12 +3,17 @@ layout: post
 title: 4 months of unemployment
 date: 2019-01-15 01:00:00 +0100
 categories: [jobs, interviews]
+description: First of all, let’s picture this frame. Back when I was a student, I was fortunate enough to have found my first job at the very same college I was studying. I didn’t look for it, I just stumbled upon it.
 custom_excerpt: First of all, let’s picture this frame. Back when I was a student, I was fortunate enough to have found my first job at the very same college I was studying. I didn’t look for it, I just stumbled upon it.
+image:
+  path: assets/images/posts/4-months-of-unemployment/photo-1513530534585-c7b1394c6d51.jpg
+  width: 1200 
+  height: 800
 ---
 
 _This post was originally shared on [Medium](https://medium.com/@pmpinto/4-months-of-unemployment-20ffa11e20c7)._
 
-![Photo by NordWood Themes on Unsplash](https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80){:standalone}
+![Photo by NordWood Themes on Unsplash](assets/images/posts/4-months-of-unemployment/photo-1513530534585-c7b1394c6d51.jpg){:standalone}
 
 # How I ended up here
 
