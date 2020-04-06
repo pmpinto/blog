@@ -3,6 +3,7 @@ layout: post
 title: Just got tested for COVID-19
 date: 2020-04-06 01:00:00 +0100
 categories: [health, covid-19]
+description: A week ago, I started to feel some symptoms that you might have heard about as being connected to COVID-19, such as having a runny nose, coughing and some difficulty breathing especially during the night.
 custom_excerpt: A week ago, I started to feel some symptoms that you might have heard about as being connected to COVID-19, such as having a runny nose, coughing and some difficulty breathing especially during the night.
 image:
   path: assets/images/posts/just-got-tested-for-covid-19/cover.png
