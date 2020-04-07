@@ -109,7 +109,7 @@ She takes the swab back and puts it inside a plastic container with some number 
 
 Now I'm going to be anxiously waiting for the result, which should be arriving within 48–72 hours. Not sure yet how exactly I'm going to be informed, but I'm assuming they're going to use my phone number.
 
-Result: ⌛️ Pending…
+Result: ❌ Not infected
 {: .lead }
 
 ---
