@@ -7,7 +7,7 @@ jobs:
             - checkout
             - run:
                   name: Update gems
-                  command: sudo gem update --system
+                  command: gem update --system
             - run:
                   name: Install ruby dependencies
                   command: bundle install
