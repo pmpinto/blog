@@ -9,6 +9,9 @@ jobs:
                   name: Update gems
                   command: sudo gem update --system
             - run:
+                  name: Stop spring (fix for 'You must use Bundler 2 or greater with this lockfile.')
+                  command: spring stop
+            - run:
                   name: Update bundler
                   command: gem install bundler -v 2.0.2
             # - run:
