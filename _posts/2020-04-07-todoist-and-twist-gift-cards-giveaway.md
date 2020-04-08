@@ -29,7 +29,7 @@ Each of them will give you **1 free year** of Todoist Premium on the account you
 
 # Twist
 
-I'm currently holding **9/10** Twist gift cards for this giveaway.  
+I'm currently holding **8/10** Twist gift cards for this giveaway.  
 Each of them will give you **$200 in Twist credit**, which you will be able to use in your account.
 
 # How to get them
