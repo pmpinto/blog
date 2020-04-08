@@ -23,13 +23,13 @@ But I still have **dozens** of cards stacked up in a drawer, that I have no idea
 
 # Todoist
 
-I'm currently holding **20/20** Todoist gift cards for this giveaway.  
+I'm currently holding **19/20** Todoist gift cards for this giveaway.  
 Each of them will give you **1 free year** of Todoist Premium on the account you redeem it.
 
 
 # Twist
 
-I'm currently holding **10/10** Twist gift cards for this giveaway.  
+I'm currently holding **9/10** Twist gift cards for this giveaway.  
 Each of them will give you **$200 in Twist credit**, which you will be able to use in your account.
 
 # How to get them
