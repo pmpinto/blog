@@ -9,12 +9,6 @@ jobs:
                   name: Update gems
                   command: sudo gem update --system
             - run:
-                  name: Update bundler
-                  command: gem install bundler -v 2.0.2
-            - run:
-                  name: Remove old bundler version
-                  command: gem uninstall bundler -v 1.16.6
-            - run:
                   name: Install ruby dependencies
                   command: bundle install
             - run:
