@@ -23,7 +23,7 @@ But I still have **dozens** of cards stacked up in a drawer, that I have no idea
 
 # Todoist
 
-I'm currently holding **19/20** Todoist gift cards for this giveaway.  
+I'm currently holding **18/20** Todoist gift cards for this giveaway.  
 Each of them will give you **1 free year** of Todoist Premium on the account you redeem it.
 
 
