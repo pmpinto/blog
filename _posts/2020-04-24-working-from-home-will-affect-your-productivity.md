@@ -3,8 +3,8 @@ layout: post
 title: Working from home will affect your productivity
 date: 2020-04-24 01:00:00 +0100
 categories: [productivity, jobs]
-description: But is it for the better or worse? Well, it looks like it depends on who is asking...
-custom_excerpt: But is it for the better or worse? Well, it looks like it depends on who is asking...
+description: But is it for the better or worse? Well, it looks like it depends on who you're asking...
+custom_excerpt: But is it for the better or worse? Well, it looks like it depends on who you're asking...
 image:
   path: assets/images/posts/working-from-home-will-affect-your-productivity/cover.png
   width: 1200 
@@ -13,7 +13,7 @@ image:
 
 ![Person working from home on the couch](assets/images/posts/working-from-home-will-affect-your-productivity/cover.png)
 
-But is it for the better or worse? Well, it looks like it depends on who is asking...
+But is it for the better or worse? Well, it looks like it depends on who you're asking...
 {: .lead }
 
 During the past month or so, most people have been experiencing something for the first time ever: working from home.
@@ -51,11 +51,15 @@ Asking to **not** go back to the office.
 Let's just flip the coin and see what's on the other side.
 
 Let's say you actually feel more productive working from home.  
-Let's say you feel less stressed when doing so.
-
+Let's say you feel less stressed when doing so.  
 Should it be any different?  
+
 Should you be forced to work in conditions you don't feel comfortable with?  
 With constant interruptions, unpleasant lighting and thermal conditions and loud colleagues, just to name a few…
+
+The good thing about remote work is that you have the option to work from whenever you want. If you don't feel like working from home, you can go to a co-working space, a coffee shop down the street or even a natural park. As long as you have internet, you'll be just fine. On the other hand, while on quarantine, we're all forced to work from home. And that's a significant difference.
+
+When you're forced to work in a specific environment, be it at home or in an office, you can imagine a lot of things can go wrong.
 
 A couple of months ago I reached out to my manager and asked to work from home whenever I felt like not going to the office.
 {: .lead }
