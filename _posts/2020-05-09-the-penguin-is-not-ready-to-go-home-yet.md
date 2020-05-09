@@ -3,8 +3,8 @@ layout: post
 title: The penguin is not ready to go home yet
 date: 2020-05-09 01:00:00 +0100
 categories: [operating-systems, linux]
-description: Most of the times, if one gets disappointed, it's due to wrong expectations.
-custom_excerpt: Most of the times, if one gets disappointed, it's due to wrong expectations.
+description: I gave Linux a try, twice, and these are some thoughts on the experience and why I believe it's not quite yet ready for home users.
+custom_excerpt: I gave Linux a try, twice, and these are some thoughts on the experience and why I believe it's not quite yet ready for home users.
 image:
   path: assets/images/posts/the-penguin-is-not-ready-to-go-home-yet/cover.png
   width: 1200 
