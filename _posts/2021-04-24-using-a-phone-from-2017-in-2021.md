@@ -7,7 +7,7 @@ description: The phone I’ve been using every single day for the past 45 months
 custom_excerpt: The phone I’ve been using every single day for the past 45 months, which has also been my trusty companion across 5 different countries, is getting a retirement.
 image:
   path: assets/images/posts/using-a-phone-from-2017-in-2021/cover.png
-  width: 1200 
+  width: 1600
   height: 900
 ---
 
