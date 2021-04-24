@@ -31,9 +31,9 @@ I was one of those people that didn’t see the interest in buying a multiple hu
 ## iPhone 3GS
 But then, as developers started to create the overwhelming amount of apps, in the early days of iOS, I started to acknowledge a phone can do much more than what I was used to. So as soon as the iPhone 4 came out (around June 2010) I pulled the trigger… On the [iPhone 3GS](https://www.gsmarena.com/apple_iphone_3gs-2826.php), that is! Why? Because I didn’t want a slab — that the iPhone 4 was — in my pocket and I also didn’t want to commit that much money into a system I didn’t know that well. Used it for almost 3 years. Never got an iPhone again.
 
-I liked it, don't get me wrong! I had lost of fun with it, but the whole system was always a bit *off* to me. Eventually I tried jailbreaking it and it did open a few more doors, but it still wasn’t spectacular.
+I liked it, don't get me wrong! I had lots of fun with it, but the whole system was always a bit *off* to me. Eventually I tried jailbreaking it and it did open a few more doors, but it still wasn’t spectacular.
 
-At some point I passed it on to my dad to introduce him on the smartphone world. He’s still with iOS to this day!
+At some point I passed it on to my dad to introduce him to the smartphone world. He’s still with iOS to this day!
 
 ## HTC One
 Since I wasn’t completely happy with iOS, at some point I decided to look elsewhere. At that time (in 2013), Android was ugly *AF*. But some manufacturers were actually improving the experience and offering a nice form factor with it. The [HTC One](https://www.gsmarena.com/htc_one-5313.php) (also known as "One M7") felt like something pulled out of my dreams. Curved back, matte black, double front facing speakers, edge to edge glass (not display)… It was gorgeous!
