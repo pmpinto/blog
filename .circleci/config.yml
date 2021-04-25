@@ -5,7 +5,7 @@ jobs:
             only:
                 - master
         docker:
-            - image: circleci/ruby:2.4.4-node
+            - image: circleci/ruby:2.6.3-node
         steps:
             - checkout
             - run:
