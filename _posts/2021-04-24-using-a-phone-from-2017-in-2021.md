@@ -26,7 +26,7 @@ Back in the day OnePlus was an invite-only kind of company. Which pretty much le
 When the OnePlus 3T came along, I stumbled upon OnePlus again. And this time, if I remember correctly, the invite system was gone. So I started to develop a real interest for these phones.
 
 # My smartphone history
-I was one of those people that didn’t see the interest in buying a multiple hundred phone, mainly because I was already carrying a mobile phone which had very little usage. A phone call here and there, a couple of messages and that was it. That was a [Motorola L6](https://www.gsmarena.com/motorola_l6-1118.php), for the record.
+I was one of those people that didn’t see the interest in buying a multiple hundred euros phone, mainly because I was already carrying a mobile phone which had very little usage. A phone call here and there, a couple of messages and that was it. That was a [Motorola L6](https://www.gsmarena.com/motorola_l6-1118.php), for the record.
 
 ## iPhone 3GS
 But then, as developers started to create the overwhelming amount of apps, in the early days of iOS, I started to acknowledge a phone can do much more than what I was used to. So as soon as the iPhone 4 came out (around June 2010) I pulled the trigger… On the [iPhone 3GS](https://www.gsmarena.com/apple_iphone_3gs-2826.php), that is! Why? Because I didn’t want a slab — that the iPhone 4 was — in my pocket and I also didn’t want to commit that much money into a system I didn’t know that well. Used it for almost 3 years. Never got an iPhone again.
@@ -106,7 +106,7 @@ Then there’s this super fast charging, which they call Warp Charging. That’s
 
 OnePlus is not the shy company they once were. They are now competing with the big dogs! And they charge real money too.
 
-But what pulls me back into OnePlus is the software experience! The amount of customization paired with the well thought extra features placed on top of vanilla Android is the perfect combination for me. Things like double tap to wake/sleep. Flip the phone while ringing to mute the ringer. The alert slider, which is very reminiscent of the iPhone, and as far as I know is the only Android manufacturer the has such a thing. The gestures on the display to launch apps or toggle system prefs like the flashlight. The well featured default launcher…
+But what pulls me back into OnePlus is the software experience! The amount of customization paired with the well thought extra features placed on top of vanilla Android is the perfect combination for me. Things like double tap to wake/sleep. Flip the phone while ringing to mute the ringer. The alert slider, which is very reminiscent of the iPhone, and as far as I know is the only Android manufacturer that has such a thing. The gestures on the display to launch apps or toggle system prefs like the flashlight. The well featured default launcher…
 
 - - - -
 
